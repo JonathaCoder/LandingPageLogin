@@ -104,18 +104,20 @@
 }
  div h4{
   transition: .1s;
+  width: 189px;
+  height: 46px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(87, 198, 95);
+  background-color: rgb(79, 191, 81);
   color: rgb(255, 255, 255);
-  border-radius: 10px;
-  box-shadow: 2px 2px 2px black;
+  border-radius: 9px;
+  box-shadow: 4px 5px 2px #bfbfbf;
   opacity: 100%;
-  padding: 20px;
   text-align: center;
   animation: aparecer 2s linear;
-  margin: 20px;
+  margin: 5px;
+  font-family: ARIAL,SANS-SERIF
 }
  @keyframes aparecer {
    from{
