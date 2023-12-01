@@ -29,6 +29,10 @@ buttonColor.addEventListener("click", (e) => {
     ValueInput.style.transition = ".2s"
     ValueInputEmail.style.transition = ".3s"
     Alert.innerHTML = "<p>Erro Verifique os Campos!!</p>"
+
+     setTimeout(() => {
+      Alert.innerHTML =""
+     },3000);
   
   }else if(nameValue.length > 0 || emailValue.length > 0){
    ValueInput.style.border = "2px solid green"
@@ -36,10 +40,16 @@ buttonColor.addEventListener("click", (e) => {
    body.style.background = "#3d7b30"
    Alert.innerHTML = "<h4>Cadastrado com Sucesso!!</h4>"
    ItemsText.style.opacity = '100%'
+   setTimeout(() => {
+      Alert.innerHTML =""
+     },3000);
+
+    
+  ValueInput.value = ""
+  ValueInputEmail.value=""
   }
   textInput.firstElementChild.textContent = nameValue
   textInput.children[1].textContent = emailValue
  
-  
 
 });
