@@ -82,20 +82,27 @@
  .error {
    background: orangered;
    color: #fff;
-   padding: 5px;
-   margin: 5px;
+  font-family: 20px;
+  margin: 10px 0px 10px 0px;
  }
  div p{
-    transition: .1s;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(251, 6, 6);
-    color: rgb(255, 255, 255);
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px black;
-    opacity: 100%;
-    padding: 20px;
+  transition: .1s;
+  width: 189px;
+  height: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(251, 6, 6);
+  color: rgb(255, 255, 255);
+  border-radius: 9px;
+  box-shadow: 4px 5px 2px #bfbfbf;
+  opacity: 100%;
+  text-align: center;
+  animation: aparecer 2s linear;
+  margin: 5px;
+  font-family: ARIAL,SANS-SERIF;
+}
+    
     text-align: center;
     animation: aparecer 2s linear;
    margin: 20px;
