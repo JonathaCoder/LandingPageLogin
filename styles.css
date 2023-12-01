@@ -1,0 +1,142 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+ 
+ body {
+   font-family: "Archivo", Arial, Helvetica, sans-serif;
+   line-height: 1.6;
+   background: #262626;
+ }
+ 
+ ul {
+   list-style: none;
+ }
+ 
+ ul li {
+   padding: 5px;
+   background: #f4f4f4;
+   margin: 5px 0;
+   
+ }
+ 
+ header {
+   background: #111;
+   color: #eee;
+   padding: 1rem;
+   text-align: center;
+   width: 100%;
+ }
+ 
+ .container {
+   margin: auto;
+   width: 500px;
+   overflow: auto;
+   padding: 3rem 2rem;
+ }
+ 
+ #my-form {
+   padding: 2rem;
+   background: #f4f4f4;
+   border-radius: 10px;
+ }
+ 
+ #my-form label {
+   display: block;
+ }
+ 
+ #my-form input[type="text"] {
+   width: 100%;
+   padding: 8px;
+   margin-bottom: 10px;
+   border-radius: 5px;
+   border: 1px solid #ccc;
+ }
+ 
+ .btn {
+   display: block;
+   width: 100%;
+   padding: 10px 15px;
+   border: 0;
+   background: #262626;
+   color: #fff;
+   border-radius: 5px;
+   margin: 5px 0;
+ }
+ 
+ .btn:hover {
+   background: #444;
+ }
+ 
+ .bg-dark {
+   background: #333;
+   color: #fff;
+ }
+ 
+ .error {
+   background: orangered;
+   color: #fff;
+   padding: 5px;
+   margin: 5px;
+ }
+ div p{
+    transition: .1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(251, 6, 6);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+    opacity: 100%;
+    padding: 20px;
+    text-align: center;
+    animation: aparecer 2s linear;
+   margin: 20px;
+ }
+ div h4{
+  transition: .1s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(87, 198, 95);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px black;
+  opacity: 100%;
+  padding: 20px;
+  text-align: center;
+  animation: aparecer 2s linear;
+  margin: 20px;
+}
+ @keyframes aparecer {
+   from{
+    opacity: 0%;
+   }
+ }
+ input:focus#name{
+  animation: treme 0.1s;
+  animation-iteration-count: 3;
+}
+input:focus#email{
+  animation: treme 0.1s;
+  animation-iteration-count: 3;
+}
+@keyframes treme {
+  0% {margin-left: 0;}
+  25% {margin-left: 5px;}
+  50% {margin-left: 0;}
+  75% {margin-left: -5px;}
+  100% {margin-left: 0;}
+}
+#users{
+  color:white;
+  font-size: 40px;
+}
+#LuaDark{
+  height: 40px;
+  cursor: pointer;  
+  position: relative;
+  left: 93%;
+}
