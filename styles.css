@@ -102,11 +102,6 @@
   margin: 5px;
   font-family: ARIAL,SANS-SERIF;
 }
-    
-    text-align: center;
-    animation: aparecer 2s linear;
-   margin: 20px;
- }
  div h4{
   transition: .1s;
   display: flex;
